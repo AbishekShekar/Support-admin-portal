@@ -2,6 +2,8 @@ import StatCard from "../components/StatCard";
 import { stats } from "../data/mockData";
 import RevenueChart from "../components/RevenueChart";
 import SubscriptionPieChart from "../components/SubscriptionPieChart";
+import RecentActivity from "../components/RecentActivity"; 
+import QuickActions from "../components/QuickActions";
 function Dashboard({ darkMode }) {
 
  return (
@@ -53,6 +55,10 @@ gap-4
     </div>
     <div className="mt-8">
       <SubscriptionPieChart 
+      darkMode={darkMode} />
+    </div>
+    <div className="mt-8">
+      <RecentActivity 
       darkMode={darkMode} />
     </div>
   </div>

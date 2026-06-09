@@ -33,8 +33,8 @@ function Notifications({ darkMode }) {
       key={item.id}
       className={`p-4 mb-4 rounded shadow ${
         darkMode
-          ? "bg-slate-800"
-          : "bg-white"
+       ? "bg-slate-950 text-white"
+      : "bg-slate-900 text-white"
       }`}
     >
 

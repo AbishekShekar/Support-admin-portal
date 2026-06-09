@@ -65,7 +65,7 @@ function Customers({ darkMode }) {
     className={`w-full shadow rounded-lg ${
       darkMode
         ? "bg-slate-800 text-white"
-        : "bg-white text-black"
+        : "bg-white text-white"
     }`}
   >
 
@@ -99,10 +99,10 @@ function Customers({ darkMode }) {
           <tr
             key={customer.id}
             className={`border-b ${
-  darkMode
-    ? "hover:bg-slate-700"
-    : "hover:bg-gray-100"
-}`}
+              darkMode
+                ? "hover:bg-slate-700"
+                : "hover:bg-gray-100"
+      }`}
           >
           <td className="p-3">
 

@@ -57,7 +57,11 @@ function Sidebar({darkMode}) {
             ⚙️ Settings
           </Link>
         </li>
-        
+        <li>
+        <Link to="/reports">
+           📄 Reports
+        </Link>
+        </li>
 
       </ul>
     </div>

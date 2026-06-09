@@ -9,6 +9,8 @@ import Requests from "./pages/Requests";
 import Renewals from "./pages/Renewals";
 import Customers from "./pages/Customers";
 import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
+import Notifications from "./pages/Notifications";
 
 function App() {
 
@@ -115,8 +117,16 @@ function App() {
                   darkMode={darkMode} 
                   setDarkMode={setDarkMode}
                   />
-  }
-/>
+                }
+                />
+                <Route
+                    path="/reports"
+                    element={<Reports darkMode={darkMode} />}
+                />  
+                <Route
+                    path="/notifications"
+                    element={<Notifications darkMode={darkMode} />}
+                />
 
               </Routes>
 
